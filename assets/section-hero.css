@@ -1,0 +1,11 @@
+.hero {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: initial;
+}
+
+.hero__inner {
+  min-height: 72rem;
+  flex-direction: row;
+}
