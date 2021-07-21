@@ -24,16 +24,19 @@
         "a6292644-2a9f-4693-bb08-89816a95dc75": {
           "type": "frame",
           "settings": {
+            "frame_image": "shopify:\/\/shop_images\/7.jpg"
           }
         },
         "4a71cd15-1b6d-48b5-82e2-2a16431d7b8c": {
           "type": "frame",
           "settings": {
+            "frame_image": "shopify:\/\/shop_images\/1.jpg"
           }
         },
         "49d9fe93-f573-4bbd-a628-f01df2d1a210": {
           "type": "frame",
           "settings": {
+            "frame_image": "shopify:\/\/shop_images\/5.jpg"
           }
         }
       },
