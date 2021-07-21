@@ -6,9 +6,16 @@
       <div class="wrapper">
         {% for block in section.blocks %}
           {% if block.type == 'frame' %}
-            <div class="frame" style="padding:{{block.settings.matting_thickness}}px; background: {{block.settings.matting_color}}">
+            <div class="frame" style="padding:{{block.settings.matting_thickness}}px; background:{{block.settings.matting_color}}; border-width:{{block.settings.border_width}}px;">
               <div class="frame__inner">
-                <img class="frame__inner__img" height="auto" width="auto" src="{{ block.settings.image | img_url: '400x' }}" loading="lazy" style="object-position:{{block.settings.vertical_alignment}} {{block.settings.horizontal_alignment}};"/>
+                <img 
+                  class="frame__inner__img {%- if block.settings.matting_thickness > 0 -%}{{' '}}frame__inner__img--with-matting{%- endif -%}" 
+                  height="auto"
+                  width="auto"
+                  src="{{ block.settings.image | img_url: '400x' }}"
+                  loading="lazy"
+                  style="object-position:{{ block.settings.vertical_alignment }} {{ block.settings.horizontal_alignment }};"
+                />
               </div>
             </div>
           {% endif %}
@@ -76,6 +83,13 @@
           "id": "matting_color",
           "label": "Matting Color",
           "default": "#ffffff"
+        },
+        {
+          "type": "number",
+          "id": "border_width",
+          "label": "Frame Thickness",
+          "info": "Edit the value to adjust the frame width",
+          "default": 20
         },
         {
           "type": "select",
