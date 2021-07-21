@@ -6,8 +6,9 @@
         "282770b3-e99c-4011-b974-cc72c9c73af3": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/2.jpg",
-            "frame_matting": 20,
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
@@ -15,8 +16,9 @@
         "2d2eff41-9b98-4c95-a64a-ab218bf0f83a": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/3.jpg",
-            "frame_matting": 0,
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
@@ -24,8 +26,9 @@
         "c3fddff7-8aab-448e-88e9-fa5e7711882a": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/8.jpg",
-            "frame_matting": 0,
+            "image": "shopify:\/\/shop_images\/8.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
@@ -33,8 +36,9 @@
         "a6292644-2a9f-4693-bb08-89816a95dc75": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/7.jpg",
-            "frame_matting": 0,
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
@@ -42,17 +46,19 @@
         "49d9fe93-f573-4bbd-a628-f01df2d1a210": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/5.jpg",
-            "frame_matting": 0,
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
-            "horizontal_alignment": "right"
+            "horizontal_alignment": "center"
           }
         },
         "4a71cd15-1b6d-48b5-82e2-2a16431d7b8c": {
           "type": "frame",
           "settings": {
-            "frame_image": "shopify:\/\/shop_images\/1.jpg",
-            "frame_matting": 40,
+            "image": "shopify:\/\/shop_images\/5.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
