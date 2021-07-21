@@ -6,7 +6,7 @@
       <div class="wrapper">
         {% for block in section.blocks %}
           {% if block.type == 'frame' %}
-            <div class="frame" style="padding: {{section.settings.frame_matting}}px">
+            <div class="frame" style="padding: {{block.settings.frame_matting}}px">
               <div class="frame__inner">
                 <img class="frame__inner__img" height="auto" width="auto" src="{{ block.settings.frame_image | img_url: '400x' }}" loading="lazy"/>
               </div>
