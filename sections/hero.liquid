@@ -7,7 +7,8 @@
         {% for block in section.blocks %}
           {% if block.type == 'frame' %}
             <div class="frame">
-              <div class="frame__photo">
+              <div class="frame__inner">
+                <img class="frame__inner__img" src="{{ block.settings.frame_image | img_url }}" loading="lazy"/>
               </div>
             </div>
           {% endif %}

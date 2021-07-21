@@ -75,10 +75,13 @@
   animation: slideup 1s forwards;
 }
 
-.frame__photo {
-  background: red;
+.frame__inner {
   width: 100%;
   height: 100%;
+}
+
+.frame__inner__img {
+  object-fit: cover;
 }
 
 @keyframes slideup {
