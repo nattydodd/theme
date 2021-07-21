@@ -57,10 +57,10 @@
           "type": "frame",
           "settings": {
             "image": "shopify:\/\/shop_images\/5.jpg",
-            "matting_thickness": 0,
-            "matting_color": "#ffffff",
+            "matting_thickness": 40,
+            "matting_color": "#FFFFFF",
             "vertical_alignment": "center",
-            "horizontal_alignment": "center"
+            "horizontal_alignment": "right"
           }
         }
       },
