@@ -6,7 +6,7 @@
       <div class="wrapper">
         {% for block in section.blocks %}
           {% if block.type == 'frame' %}
-            <div class="frame">
+            <div class="frame" style="padding: {{section.settings.frame_matting}}px">
               <div class="frame__inner">
                 <img class="frame__inner__img" height="auto" width="auto" src="{{ block.settings.frame_image | img_url: '400x' }}" loading="lazy"/>
               </div>
@@ -63,6 +63,13 @@
           "type": "image_picker",
           "id": "frame_image",
           "label": "Image for Frame"
+        },
+        {
+          "type": "number",
+          "id": "frame_matting",
+          "label": "Frame Matting",
+          "info": "Add padding (in px) to create the matting effect",
+          "default": 0
         }
       ]
     }
