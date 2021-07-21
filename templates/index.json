@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2.jpg",
             "matting_thickness": 20,
-            "matting_color": "#f8edeb",
+            "matting_color": "#ffffff",
             "border_width": 20,
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
@@ -62,8 +62,8 @@
           "type": "frame",
           "settings": {
             "image": "shopify:\/\/shop_images\/5.jpg",
-            "matting_thickness": 20,
-            "matting_color": "#f8edeb",
+            "matting_thickness": 30,
+            "matting_color": "#ffffff",
             "border_width": 10,
             "vertical_alignment": "center",
             "horizontal_alignment": "right"
