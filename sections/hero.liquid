@@ -3,6 +3,16 @@
 <div id="Banner-{{ section.id }}">
   <div class="hero">
     <div class="hero__inner color-{{ section.settings.color_scheme }}">
+      <div class="wrapper">
+        {% for block in section.blocks %}
+          {% if block.type == 'frame' %}
+            <div class="frame">
+              <div class="frame__photo">
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -40,6 +50,20 @@
       ],
       "default": "background-1",
       "label": "t:sections.hero.settings.color_scheme.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "frame",
+      "name": "Frame",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "frame_image",
+          "label": "Image for Frame"
+        }
+      ]
     }
   ]
 }
