@@ -53,7 +53,7 @@
             "image": "shopify:\/\/shop_images\/1.jpg",
             "matting_thickness": 0,
             "matting_color": "#ffffff",
-            "border_width": 20,
+            "border_width": 10,
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
