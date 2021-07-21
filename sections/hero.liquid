@@ -8,7 +8,7 @@
           {% if block.type == 'frame' %}
             <div class="frame">
               <div class="frame__inner">
-                <img class="frame__inner__img" src="{{ block.settings.frame_image | img_url }}" loading="lazy"/>
+                <img class="frame__inner__img" height="auto" width="auto" src="{{ block.settings.frame_image | img_url: '400x' }}" loading="lazy"/>
               </div>
             </div>
           {% endif %}
