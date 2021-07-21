@@ -35,7 +35,7 @@
           "type": "frame",
           "settings": {
             "frame_image": "shopify:\/\/shop_images\/1.jpg",
-            "frame_matting": 0
+            "frame_matting": 40
           }
         },
         "49d9fe93-f573-4bbd-a628-f01df2d1a210": {
