@@ -4,9 +4,13 @@
   <div class="hero">
     <div class="hero__inner color-{{ section.settings.color_scheme }}">
       <div class="hero__wrapper">
-        <div class="hero__heading">
-          <h1 class="hero__heading__text">{{ block.settings.heading }}</h1>
-        </div>
+        {% for block in section.blocks %}
+          {% if block.type == 'heading' %}
+            <div class="hero__heading">
+              <h1 class="hero__heading__text">{{ block.settings.heading }}</h1>
+            </div>
+          {% endif %}
+        {% endfor %}
         <div class="hero__grid">
           {% for block in section.blocks %}
             {% if block.type == 'frame' %}
@@ -68,7 +72,8 @@
   "blocks": [
     {
       "type": "heading",
-      "name": "Hero heading",
+      "name": "Heading",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
