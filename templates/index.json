@@ -68,6 +68,12 @@
             "vertical_alignment": "center",
             "horizontal_alignment": "right"
           }
+        },
+        "cf8fc758-f4d4-4c68-91e3-9067313abcd0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Artist Name"
+          }
         }
       },
       "block_order": [
@@ -76,7 +82,8 @@
         "c3fddff7-8aab-448e-88e9-fa5e7711882a",
         "a6292644-2a9f-4693-bb08-89816a95dc75",
         "49d9fe93-f573-4bbd-a628-f01df2d1a210",
-        "9563912e-8f07-4f23-9216-dcbf262e1e18"
+        "9563912e-8f07-4f23-9216-dcbf262e1e18",
+        "cf8fc758-f4d4-4c68-91e3-9067313abcd0"
       ],
       "settings": {
         "color_scheme": "background-1"
