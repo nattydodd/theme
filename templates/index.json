@@ -1,60 +1,96 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
+    "hero": {
+      "type": "hero",
       "blocks": {
-        "heading": {
+        "282770b3-e99c-4011-b974-cc72c9c73af3": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "matting_thickness": 20,
+            "matting_color": "#ffffff",
+            "border_width": 20,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
+        },
+        "2d2eff41-9b98-4c95-a64a-ab218bf0f83a": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#f8edeb",
+            "border_width": 10,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
+        },
+        "c3fddff7-8aab-448e-88e9-fa5e7711882a": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
+            "border_width": 20,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
+        },
+        "a6292644-2a9f-4693-bb08-89816a95dc75": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
+            "border_width": 20,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
+        },
+        "49d9fe93-f573-4bbd-a628-f01df2d1a210": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
+            "border_width": 10,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
+        },
+        "9563912e-8f07-4f23-9216-dcbf262e1e18": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.jpg",
+            "matting_thickness": 30,
+            "matting_color": "#ffffff",
+            "border_width": 10,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "right"
+          }
+        },
+        "cf8fc758-f4d4-4c68-91e3-9067313abcd0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "heading": "Artist Name"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "282770b3-e99c-4011-b974-cc72c9c73af3",
+        "2d2eff41-9b98-4c95-a64a-ab218bf0f83a",
+        "c3fddff7-8aab-448e-88e9-fa5e7711882a",
+        "a6292644-2a9f-4693-bb08-89816a95dc75",
+        "49d9fe93-f573-4bbd-a628-f01df2d1a210",
+        "9563912e-8f07-4f23-9216-dcbf262e1e18",
+        "cf8fc758-f4d4-4c68-91e3-9067313abcd0"
+      ],
       "settings": {
-        "title": "Featured products"
+        "color_scheme": "background-1"
       }
-    },
-    "image_text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
     }
   },
   "order": [
-    "image_banner",
-    "featured_products",
-    "image_text"
+    "hero"
   ]
 }
