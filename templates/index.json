@@ -120,12 +120,24 @@
             "vertical_alignment": "center",
             "horizontal_alignment": "center"
           }
+        },
+        "5238f0b2-4e73-4202-9b62-b8bb5dceb6c1": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "matting_thickness": 0,
+            "matting_color": "#ffffff",
+            "border_width": 5,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center"
+          }
         }
       },
       "block_order": [
         "16269677729108a508-0",
         "16269677729108a508-1",
-        "8ef89b99-69ea-4195-a2c1-ab0bcc2aa66a"
+        "8ef89b99-69ea-4195-a2c1-ab0bcc2aa66a",
+        "5238f0b2-4e73-4202-9b62-b8bb5dceb6c1"
       ],
       "settings": {
         "color_scheme": "background-1"
