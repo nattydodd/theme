@@ -18,19 +18,14 @@
 }
 
 .hero__heading {
-  position: absolute;
-  top: 380px;
-  right: 0px;
-  mix-blend-mode: exclusion;
-  z-index: 1;
   transform: translateX(200px);
   opacity: 0;
   animation: fadeIn 1s forwards, slideInLeft 1s forwards;
+  margin-bottom: 20px;
 }
 
 .hero__heading__text {
-  font-size: 100px;
-  color: #ffffff;
+  font-size: 50px;
   margin: 0;
 }
 
@@ -179,9 +174,27 @@
     grid-row-start: 4;
     grid-row-end: 5;
   }
+
+  .hero__heading__text {
+    font-size: 64px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
+  .hero__heading {
+    position: absolute;
+    top: 380px;
+    right: 20px;
+    mix-blend-mode: exclusion;
+    z-index: 1;
+    margin-bottom: 0px;
+  }
+
+  .hero__heading__text {
+    font-size: 100px;
+    color: #ffffff;
+  }
+
   .hero__grid {
     grid-template-rows: 60px auto 88px auto 70px auto 70px auto 32px auto;
   }
