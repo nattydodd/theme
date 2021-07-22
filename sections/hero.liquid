@@ -3,23 +3,28 @@
 <div id="Banner-{{ section.id }}">
   <div class="hero">
     <div class="hero__inner color-{{ section.settings.color_scheme }}">
-      <div class="wrapper">
-        {% for block in section.blocks %}
-          {% if block.type == 'frame' %}
-            <div class="frame" style="padding:{{block.settings.matting_thickness}}px; background:{{block.settings.matting_color}}; border-width:{{block.settings.border_width}}px;">
-              <div class="frame__inner">
-                <img 
-                  class="frame__inner__img {%- if block.settings.matting_thickness > 0 -%}{{' '}}frame__inner__img--with-matting{%- endif -%}" 
-                  height="auto"
-                  width="auto"
-                  src="{{ block.settings.image | img_url: '400x' }}"
-                  loading="lazy"
-                  style="object-position:{{ block.settings.vertical_alignment }} {{ block.settings.horizontal_alignment }};"
-                />
+      <div class="hero__wrapper">
+        <div class="hero__heading">
+          <h1 class="hero__heading__text">{{ block.settings.heading }}</h1>
+        </div>
+        <div class="hero__grid">
+          {% for block in section.blocks %}
+            {% if block.type == 'frame' %}
+              <div class="hero__frame" style="padding:{{block.settings.matting_thickness}}px; background:{{block.settings.matting_color}}; border-width:{{block.settings.border_width}}px;">
+                <div class="hero__frame__inner">
+                  <img 
+                    class="hero__frame__inner__img {%- if block.settings.matting_thickness > 0 -%}{{' '}}hero__frame__inner__img--with-matting{%- endif -%}" 
+                    height="auto"
+                    width="auto"
+                    src="{{ block.settings.image | img_url: '400x' }}"
+                    loading="lazy"
+                    style="object-position:{{ block.settings.vertical_alignment }} {{ block.settings.horizontal_alignment }};"
+                  />
+                </div>
               </div>
-            </div>
-          {% endif %}
-        {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
@@ -56,11 +61,23 @@
           "label": "t:sections.hero.settings.color_scheme.options__5.label"
         }
       ],
-      "default": "background-1",
+      "default": "accent-2",
       "label": "t:sections.hero.settings.color_scheme.label"
     }
   ],
   "blocks": [
+    {
+      "type": "heading",
+      "name": "Hero heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Artist Name"
+        }
+      ]
+    },
     {
       "type": "frame",
       "name": "Frame",
