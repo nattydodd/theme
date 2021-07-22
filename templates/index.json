@@ -88,9 +88,40 @@
       "settings": {
         "color_scheme": "background-1"
       }
+    },
+    "16269677729108a508": {
+      "type": "hero",
+      "blocks": {
+        "16269677729108a508-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Artist Name"
+          }
+        },
+        "16269677729108a508-1": {
+          "type": "frame",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.jpg",
+            "matting_thickness": 10,
+            "matting_color": "#ffffff",
+            "border_width": 10,
+            "vertical_alignment": "center",
+            "horizontal_alignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "16269677729108a508-0",
+        "16269677729108a508-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
-    "hero"
+    "hero",
+    "16269677729108a508"
   ]
 }
